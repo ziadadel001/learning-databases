@@ -1,10 +1,10 @@
-#  MongoDB Installation & Setup Guide
+# MongoDB Installation & Setup Guide
 
-This document explains how to **install and set up MongoDB**, the MongoDB shell, and the VS Code extension for MongoDB.
+This document explains how to **install and set up MongoDB**, the MongoDB shell, the VS Code extension for MongoDB, and PHP integration with Laravel.
 
 ---
 
-##  Official Website
+## Official Website
 
 Visit MongoDB's official site to download software and resources:
 
@@ -12,16 +12,18 @@ Visit MongoDB's official site to download software and resources:
 
 ---
 
-##  Software Required
+## Software Required
 
 1. **MongoDB Server** (Community Edition)
 2. **MongoDB Compass** (GUI for managing databases)
 3. **MongoDB Shell** (`mongosh`) for command-line queries
 4. **MongoDB VS Code Extension** (`MongoDB for VS Code`)
+5. **PHP MongoDB Extension** (for PHP applications)
+6. **Laravel MongoDB Package**
 
 ---
 
-##  Installation Steps
+## Installation Steps
 
 ### 1. Install MongoDB Server
 
@@ -72,7 +74,30 @@ mongosh --version
 
 ---
 
-##  Summary
+### 5. Install PHP MongoDB Extension
+
+1. Visit [PECL MongoDB for PHP](https://pecl.php.net/package/mongodb/1.21.2/windows)
+2. Download the version compatible with your PHP installation
+3. Follow instructions to enable the extension in your `php.ini`
+4. Restart your web server (Apache, Nginx, etc.)
+
+---
+
+### 6. Install Laravel MongoDB Package
+
+Run the following command in your Laravel project directory:
+
+```bash
+composer require mongodb/laravel-mongodb
+```
+
+Refer to the official Laravel documentation for MongoDB integration:
+
+[Laravel MongoDB Documentation](https://laravel.com/docs/12.x/mongodb#main-content)
+
+---
+
+## Summary
 
 Once installed, you will have:
 
@@ -80,5 +105,7 @@ Once installed, you will have:
 * MongoDB Compass for GUI management
 * MongoDB Shell for CLI queries
 * VS Code with MongoDB extension for direct interaction within your code editor
+* PHP MongoDB extension enabled
+* Laravel MongoDB package installed
 
-You are now ready to start learning and practicing MongoDB!
+You are now ready to start developing PHP applications using MongoDB with Laravel!
