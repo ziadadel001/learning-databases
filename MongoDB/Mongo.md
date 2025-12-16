@@ -48,9 +48,9 @@ Queries are written in **JavaScript syntax** inside the MongoDB shell or drivers
 
 ---
 
-# 🛠 MongoDB Shell Commands
+#  MongoDB Shell Commands
 
-## 🔌 Connection
+##  Connection
 
 ```bash
 mongosh
@@ -367,7 +367,7 @@ Get query performance details.
 
 
 
-## 🟢 When to Use MongoDB
+##  When to Use MongoDB
 
 Use **MongoDB** as your database when:
 
@@ -388,7 +388,7 @@ Use **MongoDB** as your database when:
 
 ---
 
-## ⭐ MongoDB Advantages
+##  MongoDB Advantages
 
 - **Schema-less** → faster iteration & flexibility
 - **High performance** for large datasets
@@ -399,7 +399,7 @@ Use **MongoDB** as your database when:
 
 ---
 
-## ⚖️ MongoDB vs MySQL Comparison
+##  MongoDB vs MySQL Comparison
 
 | Feature | MongoDB | MySQL |
 |------|--------|-------|
@@ -415,10 +415,11 @@ Use **MongoDB** as your database when:
 
 ---
 
-## 📝 Final Notes
+##  Final Notes
 
 - MongoDB is flexible and fast.
 - Best suited for large, evolving datasets.
 - Indexing is critical for performance.
 - Embedding is preferred over joins.
 - **MySQL is preferred** when strong consistency, transactions, and complex joins are required.
+
