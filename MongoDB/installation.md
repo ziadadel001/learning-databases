@@ -97,6 +97,20 @@ Refer to the official Laravel documentation for MongoDB integration:
 
 ---
 
+### 7. Notes for Models
+
+When using Eloquent models with MongoDB, make sure to import the MongoDB Eloquent model:
+
+```php
+use MongoDB\Laravel\Eloquent\Model;
+```
+
+Refer to the official documentation for Eloquent models with MongoDB:
+
+[MongoDB Laravel Eloquent Models](https://www.mongodb.com/docs/drivers/php/laravel-mongodb/current/eloquent-models/)
+
+---
+
 ## Summary
 
 Once installed, you will have:
@@ -107,5 +121,6 @@ Once installed, you will have:
 * VS Code with MongoDB extension for direct interaction within your code editor
 * PHP MongoDB extension enabled
 * Laravel MongoDB package installed
+* Eloquent models ready to use with MongoDB
 
 You are now ready to start developing PHP applications using MongoDB with Laravel!
