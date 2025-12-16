@@ -22,7 +22,7 @@ Coming from a **MySQL + PHP** background, I wanted to:
 - Create a long-term reference for real projects
 
 ---
-## 📖 Databases Covered
+##  Databases Covered
 
 | Database | Type | Status |
 |--------|------|--------|
@@ -34,7 +34,7 @@ Coming from a **MySQL + PHP** background, I wanted to:
 
 ---
 
-## 🧠 Learning Methodology
+##  Learning Methodology
 
 For every database, I focus on:
 
@@ -47,7 +47,7 @@ For every database, I focus on:
 
 ---
 
-## ⚖️ Why Compare Everything to MySQL?
+##  Why Compare Everything to MySQL?
 
 - MySQL is widely used in PHP applications
 - It provides a solid relational baseline
