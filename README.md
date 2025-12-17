@@ -29,8 +29,8 @@ Coming from a **MySQL + PHP** background, I wanted to:
 | MySQL         | Relational (SQL)            | ✅ Covered   |
 | MongoDB       | NoSQL (Document)            | ✅ Completed |
 | SQLite        | Relational (Embedded SQL)   | ✅ Completed |
-| PostgreSQL    | Relational (SQL)            | ⏳ Planned   |
-| Firebase      | NoSQL (Document/Realtime)   | ⏳ Planned   |
+| PostgreSQL    | Relational (SQL)            | ✅ Completed |
+| Firebase      | NoSQL (Document/Realtime)   | ✅ Completed |
 | Neo4j         | Graph Database              | ⏳ Planned   |
 | Redis         | NoSQL (Key-Value)           | ⏳ Planned   |
 | Cassandra     | NoSQL (Columnar)            | ⏳ Planned   |
