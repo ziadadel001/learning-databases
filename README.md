@@ -32,7 +32,6 @@ Coming from a **MySQL + PHP** background, I wanted to:
 | PostgreSQL    | Relational (SQL)            | ✅ Completed |
 | Firebase      | NoSQL (Document/Realtime)   | ✅ Completed |
 | Neo4j         | Graph Database              | ⏳ Planned   |
-| Redis         | NoSQL (Key-Value)           | ⏳ Planned   |
 | Cassandra     | NoSQL (Columnar)            | ⏳ Planned   |
 | InfluxDB      | Time-Series Database        | ⏳ Planned   |
 | Elasticsearch | Search / Full-Text Database | ⏳ Planned   |
