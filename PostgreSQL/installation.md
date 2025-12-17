@@ -16,7 +16,7 @@ No extra services, extensions, or packages are required.
 
 Download PostgreSQL from the official website:
 
-🔗 [https://www.postgresql.org/download/windows/](https://www.postgresql.org/download/windows/)
+ [https://www.postgresql.org/download/windows/](https://www.postgresql.org/download/windows/)
 
 ---
 
@@ -29,7 +29,7 @@ When you install PostgreSQL using the official installer, it already includes ev
 3. **psql** (Command-line interface)
 4. Required services and environment setup
 
- No additional downloads are required.
+No additional downloads are required.
 
 ---
 
@@ -50,7 +50,7 @@ When you install PostgreSQL using the official installer, it already includes ev
 
 5. Finish installation
 
- **That’s it! PostgreSQL is now fully installed and ready to use.**
+**That’s it! PostgreSQL is now fully installed and ready to use.**
 
 ---
 
@@ -87,6 +87,33 @@ psql -U postgres
 
 ---
 
+## Using PostgreSQL with Laravel
+
+Laravel fully supports PostgreSQL, just like MySQL or SQLite. **No special setup is required**. You only need to update your `.env` file with your PostgreSQL database credentials:
+
+```env
+DB_CONNECTION=pgsql
+DB_HOST=127.0.0.1
+DB_PORT=5432
+DB_DATABASE=laravel_posts
+DB_USERNAME=postgres
+DB_PASSWORD=your_password
+```
+
+That’s it — Laravel will handle the rest automatically.
+
+### Important Note
+
+Make sure your local PHP server has the PDO extension for PostgreSQL enabled. In your `php.ini` file, ensure the following line exists and is uncommented:
+
+```ini
+extension=pdo_pgsql
+```
+
+Restart your web server after making changes.
+
+---
+
 ## Summary
 
 * PostgreSQL installation is **very simple**
@@ -94,7 +121,7 @@ psql -U postgres
 * Everything is included (Server, GUI, CLI)
 * No extra packages or extensions needed
 * PostgreSQL is ready to work immediately after installation
+* Laravel fully supports PostgreSQL without any additional setup
+* Ensure `pdo_pgsql` is enabled in your PHP configuration for Laravel connectivity
 
- You can now start using PostgreSQL for development and production.
-
----
+You can now start using PostgreSQL for development and production with Lar
