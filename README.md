@@ -22,17 +22,21 @@ Coming from a **MySQL + PHP** background, I wanted to:
 - Create a long-term reference for real projects
 
 ---
-##  Databases Covered
+## Databases Covered
 
-| Database | Type | Status |
-|--------|------|--------|
-| MySQL | Relational (SQL) | ✅ Background |
-| MongoDB | NoSQL (Document) | ✅ Completed |
-| Redis | NoSQL (Key-Value) | ⏳ Planned |
-| PostgreSQL | Relational (SQL) | ⏳ Planned |
-| SQLite | Relational (Embedded) | ⏳ Planned |
+| Database      | Type                        | Status      |
+| ------------- | --------------------------- | ----------- |
+| MySQL         | Relational (SQL)            | ✅ Covered   |
+| MongoDB       | NoSQL (Document)            | ✅ Completed |
+| SQLite        | Relational (Embedded SQL)   | ✅ Completed |
+| PostgreSQL    | Relational (SQL)            | ⏳ Planned   |
+| Firebase      | NoSQL (Document/Realtime)   | ⏳ Planned   |
+| Neo4j         | Graph Database              | ⏳ Planned   |
+| Redis         | NoSQL (Key-Value)           | ⏳ Planned   |
+| Cassandra     | NoSQL (Columnar)            | ⏳ Planned   |
+| InfluxDB      | Time-Series Database        | ⏳ Planned   |
+| Elasticsearch | Search / Full-Text Database | ⏳ Planned   |
 
----
 
 ##  Learning Methodology
 
@@ -73,13 +77,5 @@ For every database, I focus on:
 
 ---
 
-##  Next Steps
-
-- Add Redis (caching & performance)
-- Deep dive into PostgreSQL differences
-- Add real-world use cases per database
-- Include performance benchmarks
-
----
 
  If you find this repository useful, feel free to explore and learn along.
